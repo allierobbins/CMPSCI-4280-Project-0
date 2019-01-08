@@ -1,0 +1,32 @@
+This is the README file for Allie Robbins' Program Translation Project 0
+
+List of Files included in program:
+     main.c
+     node.h
+     traversals.h
+     buildTree.h
+     makefile
+     README
+
+To execute the program:
+    Run command "make" to build/compile the program.
+    Run command "./main" to run the program after it is built.
+
+To clean the object files:
+    Run command "make clean"
+
+Purpose of program: 
+    The purpose of this program is to serve as a refreshment, with practice with standards and header files, trees, traversals, command line arguments, and file
+ IO.
+    
+Outline of main.c program:
+    1. main will check the command line args for an input file.
+    2. If the file is there, then main will read the file for data.
+       If there is no file, the program will prompt the user for the data.
+    3. The program will store the data into a tree
+    4. After all the data is entered, 3 traversals will be performed:
+        -inorder
+        -preorder
+        -postorder
+    5. Each of these traversals will be written to the appropriate output file.
+    6. End of the program
